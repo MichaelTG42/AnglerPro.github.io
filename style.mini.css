@@ -1,0 +1,50 @@
+*{margin: 0;padding: 0;border: 0;}
+#main{width: 100%;height: 100vh;background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(images/Long-Island-Fishing-The-South-Shore-Press.jpg);background-size: cover;}
+header
+{width: 100%;height: 120px;background-color: rgba(0,0,0,0.5);line-height: 60px;}
+header .main-nav{float: right;list-style: none;margin-top: 30px;}
+header .main-nav li{display: inline-block;}
+header .main-nav li a
+{color: white;text-decoration: none;padding: 5px 20px;font-family: "roboto", sans-serif;font-size: 15px;}
+header .main-nav li a:hover{border: 1px solid white;}
+header .logo img
+{width: 150px;height: auto;float: left;}
+header .row{max-width: 1200px;margin: auto;}
+#menu{position: fixed;width: 200px;height: 80%;background:rgba(0,0,0,0.5);left: -200px;transition: all 500ms linear;} 
+#menu.active{left: 0px;}
+#menu a{text-decoration: none;color: white;padding: 20px;padding-right: 100px;}
+#menu ul li{color: white;list-style: none;padding: 15px 10px;border-bottom: 1px solid white;}
+#menu ul li:hover{transition: linear all 0.40s;margin-left: 10px;}
+#menu ul li:hover{color: black;}
+#menu .toggle-btn{position: absolute;left: 230px;top: 20px;}
+#menu .toggle-btn span{display: block;width: 30px;height: 5px;background: white;margin: 5px 0px;}
+#content{margin-left: 275px;}
+#content h2{color: white;}
+.product-content{margin: 0 auto;width: 100%;list-style: none;}
+.product-content li{float: left;width: 275px;margin-top: 30px;margin-right: 30px;border: 1px solid black;}
+.product-content li img{width: 275px;height: 130px;float: left;}
+.product-content li:hover .product-description{opacity: 0.7;}
+.product-description{position: absolute;width: 275px;height: 130px;background: rgba(0, 0, 0, 0.6);transition: 1s ease-in;opacity: 0;}
+.prodcut-description p, .product-description a{padding: 10px;font-size: 15px;color: #fff;text-decoration: none;}
+.product-information{float: left;width: 100%;height: 40px;background: black;}
+.product-information h4{float: left;width: 70%;margin: 10px;color: white;}
+.product-information span{width: 30%;margin: 5px;font-size: 20px;color: white;}
+.cart{width: 100px;height: 25px;float: right;font-size: 20px;text-align: center;text-decoration: none;font-weight: bold;background: black;color: white;}
+article{padding: 1em 3%;width: 94%;height: 75%;position: relative;}
+ article h2{margin: 0 0 0.4em;font-family: Georgia, "Times New Roman", Times, serif;font-size: 1.8em;color: white;}
+ article h4{margin: 1.5em 0 0.6em;font-family: Georgia, "Times New Roman", Times, serif;font-size: 1.2em;color: white;}
+ article p{margin: 1em 0;color: white;}
+ article img{border: 5px solid black;}
+ #video{max-width: 50%;margin: 0 0.4em 0.4em;float: right;}
+.about{clear: both;margin: auto;margin-top: 40px;width: 75%;background-color: rgba(0,0,0,0.5); color: white;}
+.about h2{font-size: 3em;text-align: center;padding-top: 50px;}
+.about p.summary{font-size: 1.2em;padding: 20px;text-align: center;}
+.shoppingcart{clear: both;margin: auto;margin-top: 20px;width: 75%;background-color: rgba(0,0,0,0.5); color: white;}
+.shoppingcart tbody tr td img{height: 75px;width: 125px;}
+.shoppingcart thead{background-color:black;}
+.shoppingcart td, th{border: 1px solid black;padding: 0.5em;}
+.shoppingcart .btn{font-weight:bold;transition: all .5s;border-radius: 5px;line-height: 50px;color: white;background: black;width: 200px;text-align: center;box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5), 0px 0px 0px 1px rgba(0, 0, 0, 0.1);}
+.btn:hover{color: white;background: #333;cursor: pointer;}
+footer {padding: 0.5em;clear: both;color: white;background-color: black;text-align: right;position:absolute;bottom:0;width:98.9%;line-height: 15px;font-size: 15px;}
+@media print{content {position: static;margin: 0 auto;}.container, content, body, footer, header, about, cart, items{color: #000;background: #fff;}body{max-width: 100%;}menu{display: none;}}
+@page{margin: 0.75in;}

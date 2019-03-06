@@ -1,0 +1,5 @@
+file:///C:/Users/elbuz/Desktop/Angler%20Pro/index.html
+file:///C:/Users/elbuz/Desktop/Angler%20Pro/Category.html
+file:///C:/Users/elbuz/Desktop/Angler%20Pro/items.html
+file:///C:/Users/elbuz/Desktop/Angler%20Pro/about.html
+file:///C:/Users/elbuz/Desktop/Angler%20Pro/cart.html
